@@ -1,0 +1,26 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "description": "A basic Express Link Shortner Aplplication\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C with front end\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Djs\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Ce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romzy234/Link-Shortener.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "nedb",
+    "epressjs",
+    "express",
+    "ejs"
+  ],
+  "author": "Cyril OGOH\u001b[B\u001b[D\u001b[D\u001b[D\u001b[A\u001b[YRIL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romzy234/Link-Shortener/issues"
+  },
+  "homepage": "https://github.com/romzy234/Link-Shortener#readme"
+}
