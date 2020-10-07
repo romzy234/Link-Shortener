@@ -1,4 +1,5 @@
 const express = require('express');
+var path = require('path');
 const Datastore = require('nedb');
 
 /// Loading the database
@@ -31,7 +32,7 @@ app.post('/post', (req,res) =>{
 // get router
 // Homepage 
 app.get('/', (req,res) =>{
-    res.render('/index')
+    res.render('index')
 });
 
 //Table of all Shortener create 

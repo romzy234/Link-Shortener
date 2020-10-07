@@ -6,6 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "lodash": "^4.17.20",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/romzy234/Link-Shortener.git"
