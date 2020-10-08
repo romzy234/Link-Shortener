@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}input[type=url], select {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}button[type=submit] {width: 100%;background-color: #4CAF50;color: white;padding: 14px 20px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}button[type=submit]:hover {background-color: #45a049;}div {border-radius: 5px;background-color: #f2f2f2;padding: 40px;}</style><body>
+<h2>Create A redirect link </h2>
+
+<div>
+  <form action="/post" method="POST">
+    <label for="Ename">Name of Service </label>
+    <input type="text"  name="Ename" required>
+
+    <label for="entry">Entry</label>
+    <input type="text" name="entry" required>
+
+    <label for="redirect">Redirect Router</label>
+    <input type="url" name="redirect" required>
+  <button type="submit">Create</button></form></div><br><hr><p><b>The Entry Router would look like this 'http://[sitename].com/r/[[Entry router]]'</b></p><hr><br>
+  <a href="/route">See All Created</a></body></html>
