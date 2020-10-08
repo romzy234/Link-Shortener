@@ -4,7 +4,7 @@
 ## 
 # How to Use 
 ### After cloning the repo,
-### run ```npm install && localhost:80```
+run ```npm install && node index.js```
 # 
 ### Then type **127.0.0.1:80** in your broswer and you go to go 
 # 
