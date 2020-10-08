@@ -18,12 +18,12 @@ app.set('view engine', 'ejs');
 // Post router 
 // Send data to the database
 app.post('/post', (req,res) =>{
-    const detail ={
-        Ename : req.body.Ename,
+    const detail = {
+        name : req.body.name,
         entry : req.body.entry,
         redirect : req.body.redirect,
         count : 0   
-    }
+    };
     console.log('Am working ')
     database.insert(detail);
     res.redirect('/sent');
