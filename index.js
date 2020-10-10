@@ -1,7 +1,7 @@
 const express = require('express');
 var path = require('path');
 const Datastore = require('nedb');
-
+// bodypaser 
 /// Loading the database
 const database = new Datastore('database.db');
 database.loadDatabase();
