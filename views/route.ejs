@@ -1,40 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-    background-color: #4CAF50;
-    color: white;
-}
-</style>
-</head>
-<body>
-
-<h2>Colored Table Header</h2>
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
+<style>table {border-collapse: collapse;width: 100%;}th, td {text-align: left; padding: 8px;}tr:nth-child(even){background-color: #f2f2f2}th {background-color: #4CAF50; color: white;}</style>
+</head><body><h2>Table</h2><table>
+  <tr><th>S/N</th><th>Route Name</th><th>Entry Route</th><th>Exit Route</th><th>Count</th><th>Action</th></tr>
+  <% var num = 1%>
+  <%data.forEach((data)=>{%>
+  <tr><th scope="row"><%= num %></th><td><%= data.Ename%></td><td><a href="/r/<%= data.entry%>"><%= data.entry%></a></td><td><a href="<%= data.redirect%>"><%= data.redirect%></a></td><td><%= data.count%></td><td><a href="/delete/<%= data._id%>">Delete Route</a></td>
   </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
-  </tr>
-</table>
-</body>
-</html>
+  <%num +=1%>
+  <%});%>
+</table></body></html>
