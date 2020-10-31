@@ -1,12 +1,13 @@
 # Link-Shortener
-#### This is an Nodejs Express Application.
-#### which **create, track and redirect** Url to any given router 
+This is an Nodejs Express Application.
+
+which **create, track and redirect** Url to any given router 
 ## 
 # How to Use 
-### After cloning the repo,
-### run ```npm install && localhost:80```
+After cloning the repo,
+run ```npm install && node index.js```
 # 
-### Then type **127.0.0.1:80** in your broswer and you go to go 
+##### Then type **127.0.0.1:80** in your broswer and you good to go 
 # 
 # About Application 
 ### Its uses Nedb as it database 
