@@ -14,3 +14,7 @@ run ```npm install && node index.js```
 ### Its has GUI (web page) were u could add links 
 ## And another where you can delete and  and check the total nubmer of people who visited ypur link  
 #### If the link dont exist it return a 404 error as broken link 
+### TO-DO LIST
+*Adding Auth
+*Adding Analytics
+*
