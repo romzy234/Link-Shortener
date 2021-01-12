@@ -17,4 +17,5 @@ run ```npm install && node index.js```
 ### TO-DO LIST
 * Adding Auth
 * Adding Analytics
-* 
+* Adding a manifest.json 
+* Adding PWA 
