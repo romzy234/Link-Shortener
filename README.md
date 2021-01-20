@@ -19,3 +19,5 @@ run ```npm install && node index.js```
 * Adding Analytics
 * Adding a manifest.json 
 * Adding PWA 
+* Add protected route 
+* Add terminal output
